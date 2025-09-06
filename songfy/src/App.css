@@ -1,5 +1,167 @@
+html,
+body,
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #191414;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+header h1 {
+  color: #1fd760;
+  margin: 0;
+}
+
+.search-sections-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1400px;
+  justify-content: center;
+}
+
+.search-section {
+  flex: 1;
+  min-width: 400px;
+  background-color: #5c5858;
+  border: 1px solid #495057;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.search-section h2 {
+  margin-top: 0;
+  text-align: center;
+  color: white;
+}
+
+.section-description {
+  text-align: center;
+  font-size: 0.85rem;
+  color: white;
+  min-height: 40px;
+  margin-bottom: 1.5rem;
+}
+
+.search-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.search-group label {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: white;
+  text-align: left;
+}
+
+.search-input-wrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search-group input {
+  flex-grow: 1;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  background-color: #ffffff;
+  color: black;
+  font-size: 1rem;
+}
+
+.search-group button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #1fd760;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-group button:hover:not(:disabled) {
+  background-color: #495057;
+}
+
+.search-group button:disabled {
+  background-color: #495057;
+  cursor: not-allowed;
+}
+
+.results-wrapper {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.results-header {
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.song-card {
+  background-color: #495057;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  border: 1px solid #dee2e6;
+}
+
+.song-card h4 {
+  margin: 0 0 0.25rem 0;
+  color: white;
+}
+
+.song-card p {
+  margin: 0;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.performance-details {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+.song-list-container {
+  width: 100%;
+}
+
+.song-list-container.scrollable {
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 10px;
 }
