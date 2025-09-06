@@ -132,7 +132,12 @@ function App() {
   return (
     <div className="app-container">
       <header>
-        <h1>Songfy</h1>
+        <img
+          src="/Songfy.png"
+          alt="Logo"
+          className="logo"
+          style={{ width: "610px", height: "219px" }}
+        />
         {isLoading && <p>Carregando...</p>}
       </header>
 
