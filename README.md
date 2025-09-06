@@ -1,36 +1,47 @@
-# Repositório Template
-Repositório de Template para os projetos da disciplina 
-```
-Nome do Repositório (Apague este tópico)
-  O nome do repositório deve seguir o padrão <TemaProjeto>_<Nome Projeto>.
-  O nome do projeto deve representar o que foi implementado no mesmo (Ex:
-  Game xyz, Implementações Otimizadas de Algoritmos, Aplicativo xpto)
+# Busca_Songfy
 
-Os temas de projeto são:  
- - Busca - Algoritmos de busca  
- - Ord_quad - Algoritmos de ordenação O(n²)  
- - Ord_nlogn - Algoritmos de ordenação O(n*log(n))  
- - Arv - Algoritmos de manipulação de Árvores  
- - Grafo - Algoritmos de manipulação de Grafos  
- 
- Ex: Busca_ConcorrenteDaGoogle
-```
+Repositório para o trabalho de busca da disciplina estrutura de dados 2.
+
 ## Alunos  
 | Matrícula | Nome |  
 |-----------------------|---------------------|  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
+| 20/0054333 | [Arthur Gabriel Lima Gomes](https://github.com/ArthurGabrieel) |  
+| 19/0025581 | [Bruno Oliveira Lima](https://github.com/eng-Bruno) |
+
 ## Descrição do projeto
-Aqui você deve dizer o objetivo deste projeto e o que realmente foi feito neste repositório.
+O objetivo deste trabalho é desenvolver uma aplicação web de página única para demonstrar a eficiência, a implementação e as restrições do algoritmo de Busca Binária e de busca linear. A aplicação servirá como uma prova de conceito de como algoritmos eficientes podem ser aplicados em cenários realistas para pesquisar grandes conjuntos de dados de forma quase instantânea.
+
 ## Guia de instalação
-Aqui devem estar descritas as dependências do projeto (versões de linguagens e ferramentas) e as instruções necessárias para executar o projeto. 
+
+Entre no repositório e execute os comandos abaixo:
+
+```bash
+git clone https://github.com/EDAII/Busca_Songfy.git
+cd Busca_Songfy
+npm install
+```
+
 ### Dependências do projeto
+
+- Node.js - 20.19.5
+- React - 19.1.1
+- Papa Parse - 5.5.3
+
 ### Como executar o projeto
+Execute o comando abaixo:
+
+```bash
+npm run dev
+```
+
 ## Capturas de tela
 Neste tópico você deve adicionar imagens do funcionamento do projeto.  
  - As imagens devem ser salvas no repositório.
  - Imagens salvas em domínios eternos tendem a ficar indisponíveis e devem ser evitadas.   
+
 ## Conclusões
-Aqui você diz se o algoritmo utilizado foi útil, se tem limitações, etc.
+Para o Songfy, foi implementado a busca linear, que é simples mas lenta, e a binária, extremamente rápida mas que exige um dataset ordenado. A implementação demonstra o clássico trade-off entre a flexibilidade de um método e a alta performance do outro.
+
 ## Referências
-Caso tenha utilizado algum agoritmo como base, citar o mesmo devidamente para  evitar quaisquer denuncias de plágio.
+
+[Dataset de músicas](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset/viewer/default/train?views%5B%5D=train)
