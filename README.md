@@ -1,4 +1,4 @@
-# Busca_Songfy
+<img src="assets/Songfy.png" width="400">
 
 Repositório para o trabalho de busca da disciplina estrutura de dados 2.
 
