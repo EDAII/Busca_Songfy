@@ -35,9 +35,10 @@ npm run dev
 ```
 
 ## Capturas de tela
-Neste tópico você deve adicionar imagens do funcionamento do projeto.  
- - As imagens devem ser salvas no repositório.
- - Imagens salvas em domínios eternos tendem a ficar indisponíveis e devem ser evitadas.   
+<img src="assets/image1.png" width="500">
+<img src="assets/image2.png" width="500">
+<img src="assets/image3.png" width="500">
+<img src="assets/image4.png" width="500">
 
 ## Conclusões
 Para o Songfy, foi implementado a busca linear, que é simples mas lenta, e a binária, extremamente rápida mas que exige um dataset ordenado. A implementação demonstra o clássico trade-off entre a flexibilidade de um método e a alta performance do outro.
